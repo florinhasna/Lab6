@@ -6,6 +6,7 @@ void swap_array(int array[], int pos1, int pos2);
 
 int main(){
   int my_array[] = {1, 2, 3};
+  swap_array(my_array, 0, 1);
   return 0;
 }
 
@@ -17,3 +18,4 @@ void swap_array(int array[], int pos1, int pos2){
   array[pos2] = array[pos1];
   array[pos1] = temp;
 }
+
