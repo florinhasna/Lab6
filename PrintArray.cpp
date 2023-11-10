@@ -13,6 +13,9 @@ int main(){
   int *swapped_array = swap_array(numbers, 0, 1);
   // print after swap
   print_array(swapped_array, 3);
+
+  delete[] swapped_array;
+  swapped_array = nullptr;
   return 0;
 }
 
